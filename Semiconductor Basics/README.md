@@ -2,5 +2,5 @@
 ## Assignment Title: Assignment 2.1 Semiconductor Basics
 **Student Name:** Madushan Rajapksha
 
-**Tools Used:** LTSpice,Pen & Paper
+**Tools Used:** Pen & Paper
 
