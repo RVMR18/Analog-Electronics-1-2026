@@ -1,5 +1,7 @@
-**Diode Name - ** 1N4148
-**Manufacturer - ** Central Semiconductor Corp.
+**Diode Name - 1N4148
+
+**Manufacturer - Central Semiconductor Corp.
+
 ** Data Sheet Link - https://my.centralsemi.com/datasheets/1N4148.PDF
 
 **Forward Voltage at a specified current : For the 10mA forward current maximum voltage is 1V
