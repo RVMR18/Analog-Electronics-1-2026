@@ -13,5 +13,6 @@
 **Operating temperature range : -65 to +200 degree Celcius. In this range diode opeartes reliably.
 
 **Application of Diode
+
 The 1N4148's very fast reverse recovery time (~4 ns) makes it ideal for signal switching circuits like logic-level pulse shaping, frequency circuits, and digital interfaces where diodes must turn on/off quickly.
 
