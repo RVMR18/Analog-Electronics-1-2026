@@ -2,9 +2,13 @@ Name: Madushan Rajapaksha
 
 Simulation ParametersCircuit Type: 
 -Transient Analysis (.tran)
+
 -Input Voltage (Vi): Sine wave with 10V peak
+
 -Frequency: 50 HzStop 
+
 -Time: 40ms 
+
 -Components: 1kΩ Resistors  and a Silicon Diode 
 
 -Positive Cycle Clipping: When the input goes above 0V, the diode turns on and shorts the signal to ground. This "clips" the output, keeping it flat near 0.7V.
