@@ -25,6 +25,8 @@ How sensors work (analog input)
 
 Voltage divider principle
 
+
+
 Circuit Challenge 6 – The Cascade Fade
 
 
@@ -69,6 +71,7 @@ Importance of polarity (capacitors & LEDs)
 Parallel circuit design
 
 
+
 Circuit Challenge 7 – Don’t Make Me Wait
 
 
@@ -93,6 +96,8 @@ What I Learned
 Charging and discharging of capacitors
 
 Time delay behavior in circuits
+
+
 
 Circuit Challenge 8 – Ping Pong Flashers
 
