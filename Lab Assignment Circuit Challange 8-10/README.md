@@ -1,22 +1,15 @@
-Circuit Challenge 9: I Can’t Hear You!
-This project demonstrates how to use an NPN transistor and a coupling capacitor to create a circuit where LEDs flash in sync with an audio signal (AC).
+#Circuit Challenge 9: I Can’t Hear You!
 
-What I Did
-In this project, I completed the "I Can't Hear You" challenge from the course materials. Here is a breakdown of the steps I took:
+##This project focuses on building a Common Emitter Amplifier circuit. 
 
-Audio Input (AC Signal): I used an audio source to provide an alternating current signal.
+It is designed to take a small, weak AC signal from a microphone and amplify it into a much larger signal.
 
-Capacitive Coupling: I added a capacitor to block the DC offset while allowing the AC audio signal to pass through to the transistor base.
+Project ObjectivesDesign an amplifier using a 9V DC supply.Set a stable DC operating point.
 
-Transistor Amplification: I used a 2N3904 (or similar) NPN transistor. When the audio signal reaches ~0.7V, it triggers the transistor to "close" the circuit.
+Block DC voltages while allowing the audio signal (AC) to pass through the system.
 
-Sensitivity Adjustment: To make the LEDs more responsive to the music, I added a diode to help discharge negative voltage from the capacitor (as suggested in the advanced slides).
+Maximize signal gain using a Bypass Capacitor.
 
-Output: I wired three LEDs in parallel with a current-limiting resistor on the collector side of the transistor.
+🛠️ Circuit ConstructionInput Coupling: I used a 1μF capacitor at the microphone output. This blocks the DC power from the microphone so only the "sound waves" reach the transistor base.Voltage Divider Bias: To keep the transistor in the "Active" region, I set the base voltage to 1.7V.I used a series combination of resistors to reach the target values of 67kΩ and 17.1kΩ .The Output Stage:Emitter Resistor 1kΩ to stabilize the circuit.Collector Resistor  4kΩ to set the output voltage near the middle of the supply.Bypass Capacitor: I added a 100μF capacitor across the emitter resistor. This creates a "shortcut" for the AC signal, which significantly increases the volume (gain) of the output.
 
-Circuit Features
-Voltage Source: 9V DC for the main power.
-
-Signal Type: AC Audio Signal.
-
-Active Components: NPN Transistor, Electrolytic Capacitor, and Silicon Diode.
+Final ResultsThe circuit successfully converts quiet sounds into measurable voltage changes.Using an oscilloscope, I verified that the output signal is an amplified version of the input, centered around the 4.5V bias point.
